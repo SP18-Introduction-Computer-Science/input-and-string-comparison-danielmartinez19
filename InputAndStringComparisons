@@ -1,0 +1,14 @@
+numbers = [1,45,23,11,6,50,41,97]
+oddnumbers = []
+evennumbers = []
+
+
+for x in numbers:
+    if x %2 == 0:
+        oddnumbers.append(x)
+    else:
+        evennumbers.append(x)
+
+print(oddnumbers)
+print(evennumbers)
+    
